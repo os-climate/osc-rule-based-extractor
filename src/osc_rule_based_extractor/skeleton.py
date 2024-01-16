@@ -4,7 +4,7 @@ console script. To run this script uncomment the following lines in the
 ``[options.entry_points]`` section in ``setup.cfg``::
 
     console_scripts =
-         fibonacci = osc_data_extractor.skeleton:run
+         fibonacci = osc_rule_based_extractor.skeleton:run
 
 Then run ``pip install .`` (or ``pip install -e .`` for editable mode)
 which will install the command ``fibonacci`` inside your current environment.
@@ -24,7 +24,7 @@ import argparse
 import logging
 import sys
 
-from osc_data_extractor import __version__
+from osc_rule_based_extractor import __version__
 
 __author__ = "Matthew Watkins"
 __copyright__ = "Matthew Watkins"
@@ -36,7 +36,7 @@ _logger = logging.getLogger(__name__)
 # ---- Python API ----
 # The functions defined in this section can be imported by users in their
 # Python scripts/interactive interpreter, e.g. via
-# `from osc_data_extractor.skeleton import fib`,
+# `from osc_rule_based_extractor.skeleton import fib`,
 # when using this Python module as a library.
 
 
@@ -142,6 +142,6 @@ if __name__ == "__main__":
     # After installing your project with pip, users can also run your Python
     # modules as scripts via the ``-m`` flag, as defined in PEP 338::
     #
-    #     python -m osc_data_extractor.skeleton 42
+    #     python -m osc_rule_based_extractor.skeleton 42
     #
     run()

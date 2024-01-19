@@ -87,7 +87,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "osc-data-extractor"
+project = "osc-rule-based-extractor"
 copyright = "2023, Matthew Watkins"
 
 # The version info for the project you're documenting, acts as replacement for
@@ -229,7 +229,7 @@ html_static_path = ["_static"]
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "osc-data-extractor-doc"
+htmlhelp_basename = "osc-rule-based-extractor-doc"
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -246,7 +246,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-    ("index", "user_guide.tex", "osc-data-extractor Documentation", "Matthew Watkins", "manual")
+    ("index", "user_guide.tex", "osc-rule-based-extractor Documentation", "Matthew Watkins", "manual")
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

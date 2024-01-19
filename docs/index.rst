@@ -1,8 +1,8 @@
 ==================
-osc-data-extractor
+osc-rule-based-extractor
 ==================
 
-This is the documentation of **osc-data-extractor**.
+This is the documentation of **osc-rule-based-extractor**.
 
 .. note::
 

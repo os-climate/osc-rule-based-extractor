@@ -1,4 +1,5 @@
 import pytest
+
 from osc_rule_based_extractor.skeleton import fib, main
 
 __author__ = "Matthew Watkins"

@@ -42,7 +42,7 @@ build-backend = "pdm.backend"
 license-files = ["LICENSES.txt"]
 
 [project.scripts]
-osc-rule-based-extractor = "osc_data_extractor.skeleton:run"
+osc-rule-based-extractor = "osc_rule_based_extractor.skeleton:run"
 
 [project.optional-dependencies]
   dev = [

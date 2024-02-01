@@ -5,4 +5,4 @@
 groups = ["default"]
 strategy = ["cross_platform"]
 lock_version = "4.4.1"
-content_hash = "sha256:cd6775215a7b7b0d7e0dc3d9c2c48515d9fb2e36d96c9185d5f9e0c76b8ff089"
+content_hash = "sha256:b6fd667ce55a2e315da1fc5a4e168a111d44a7cd799e85551f6942b500c2437c"

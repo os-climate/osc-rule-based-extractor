@@ -1,3 +1,10 @@
+"""Sample file to eventually be removed from repository."""
+import argparse
+import logging
+import sys
+
+from osc_rule_based_extractor import __version__
+
 """
 This is a skeleton file that can serve as a starting point for a Python
 console script. To run this script uncomment the following lines in the
@@ -20,11 +27,6 @@ References:
     - https://pip.pypa.io/en/stable/reference/pip_install
 """
 
-import argparse
-import logging
-import sys
-
-from osc_rule_based_extractor import __version__
 
 __author__ = "Matthew Watkins"
 __copyright__ = "Matthew Watkins"
@@ -41,8 +43,8 @@ _logger = logging.getLogger(__name__)
 
 
 def fib(n):
-    """Fibonacci example function
-
+    """Fibonacci example function."""
+    """
     Args:
       n (int): integer
 
@@ -63,8 +65,8 @@ def fib(n):
 
 
 def parse_args(args):
-    """Parse command line parameters
-
+    """Parse command line parameters."""
+    """
     Args:
       args (List[str]): command line parameters as list of strings
           (for example  ``["--help"]``).
@@ -99,8 +101,8 @@ def parse_args(args):
 
 
 def setup_logging(loglevel):
-    """Setup basic logging
-
+    """Setup basic logging."""
+    """
     Args:
       loglevel (int): minimum loglevel for emitting messages
     """

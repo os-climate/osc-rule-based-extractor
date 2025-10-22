@@ -19,10 +19,10 @@ jobs:
 
     steps:
       - name: "Checkout primary repository"
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: "Pull devops content from repository"
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: "os-climate/devops-toolkit"
           path: ".devops"
